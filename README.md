@@ -1,4 +1,4 @@
-# WT_Demo_Arduino_MiniSwitcher
+# WT_Demo_RPI_ValveController
 Development of input code for Raspberry Pi test (intended component of larger generator project)
 
 Uses rpi.gpio to control a pneumatic solenoid valve programmatically. 
