@@ -23,9 +23,9 @@ def close_solenoid():
 def main():
     try:
         while True:
-            # Open the solenoid valve for 5 seconds
+            # Open the solenoid valve
             open_solenoid()
-            time.sleep(0.1)  # Keep it open for 5 seconds
+            time.sleep(0.1)  # Keep it open
             close_solenoid()
             time.sleep(1)  # Wait 1 second before opening again or adjust as needed
 
